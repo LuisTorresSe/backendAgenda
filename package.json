@@ -2,10 +2,10 @@
   "name": "back-agenda",
   "version": "1.0.0",
   "description": "",
-  "main": "index.js",
+  "main": "./index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "index.js",
+    "start": "node index.js",
     "dev": "nodemon index.js",
     "build:ui": "rm -rf build && cd ../Agenda-frontend && npm run build --prod && cp -r build ../back"
   },
